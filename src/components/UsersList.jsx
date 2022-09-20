@@ -14,7 +14,7 @@ import './css/UserList.css'
         <ul className="list">
           {
             users.map(user => (
-              <li key = {user.id}>
+              <li key = {user.id} className="element-user">
                 <b>User: </b>{user.id}
                 <div className="data"><b>First Name: </b>{user.first_name}</div>
                 <div className="data"><b>Last Name: </b>{user.last_name}</div>
