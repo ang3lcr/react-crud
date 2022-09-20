@@ -16,3 +16,12 @@
 .list{
   list-style: none;
 }
+
+.data{
+  margin-top: 10px;
+}
+
+button{
+  margin-top: 10px;
+  margin-right: 10px;
+}

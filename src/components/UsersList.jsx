@@ -16,10 +16,10 @@ import './css/UserList.css'
             users.map(user => (
               <li key = {user.id}>
                 <b>User: </b>{user.id}
-                <div><b>First Name: </b>{user.first_name}</div>
-                <div><b>Last Name: </b>{user.last_name}</div>
-                <div><b>Email: </b>{user.email}</div>
-                <div><b>Birthday: </b>{user.birthday}</div>
+                <div className="data"><b>First Name: </b>{user.first_name}</div>
+                <div className="data"><b>Last Name: </b>{user.last_name}</div>
+                <div className="data"><b>Email: </b>{user.email}</div>
+                <div className="data"><b>Birthday: </b>{user.birthday}</div>
                 <button onClick={() => selectUser(user)}>
                   Update
                 </button>
